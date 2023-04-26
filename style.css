@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.carsTable,
+.carsTable th,
+.carsTable td {
+	border-collapse: collapse;
+	padding: 14px;
+}
+
+.center {
+	text-align: center;
+}
+
+.carsTable {
+	width: 100%;
+	text-align: left;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.carsTable th {
+	background-color: rgb(60, 60, 60);
+	color: rgb(252, 240, 240);
+}
+
+.carsTable tr:nth-child(odd) {
+	background-color: rgb(255, 255, 255);
+}
+
+.carsTable tr:nth-child(even) {
+	background-color: rgb(176, 176, 176);
+}
+
+@media only screen and (max-width: 640px) {
+	.textCenter {
+		text-align: center;
+	}
+}
